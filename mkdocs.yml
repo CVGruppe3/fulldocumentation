@@ -1,0 +1,60 @@
+site_name: Grocery Vision
+site_url: http://CVGruppe3.github.io/Object
+repo_url: https://git.scc.kit.edu/aiss-cv-projekt/aiss-cv-group3-project/-/tree/main
+
+
+nav:
+    - Home: index.md
+    - Business Case: business_case.md
+    - Business Strategy: business_strategy.md
+    - Data: data.md
+    - Model: model.md
+    - Technical Implementation: architecture.md
+    - Survey: user_expert_servey.md
+    - Team: team.md
+    
+
+
+
+theme:
+    name: material
+    favicon: assets/images/favicon.ico
+    logo: assets/images/favicon.ico
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+    palette:
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          primary: amber
+          accent: deep orange
+          scheme: default
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          primary: deep orange
+          accent: amber
+          scheme: slate
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+        
+copyright: With ❤ by Nils, Janik, Chris, Mario and Philipp
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
+
+
+plugins:
+  - search
+  - mkdocs-video:
+        css_style:
+            position: relative
+            weight: "100%"
+            height: 18.7225vw
+            width: 50vw
